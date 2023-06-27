@@ -40,5 +40,5 @@ echo 'source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash ' >> ~/.
 echo 'source ~/ros2_ws/install/local_setup.bash ' >> ~/.bashrc
 
 #Creating ros workspace
-mkdir ros2_ws/src -p
+mkdir -p ros2_ws/src 
 source ~/ros2_ws/install/local_setup.bash 
